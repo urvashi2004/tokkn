@@ -19,7 +19,8 @@ const About = () => {
                     <div className="photo">
                         <img src={Deepanjali} alt="Avatar" className="image" />
                         <div className="overlay">
-                            <a href="" className="icons">
+                            <p>Deepanjali Kumari</p>
+                            <a href="https://www.linkedin.com/in/deepanjali-kumari-835204289/" className="icons">
                                 <img src={LinkedIn} alt="LinkedIn" />
                             </a>
                         </div>
@@ -28,7 +29,8 @@ const About = () => {
                     <div className="photo">
                         <img src={Gupta} alt="Avatar" className="image" />
                         <div className="overlay">
-                            <a href="" className="icons">
+                            <p>Shreya Gupta</p>
+                            <a href="https://www.linkedin.com/in/shreya-gupta-a783b9270/" className="icons">
                             <img src={LinkedIn} alt="LinkedIn" />
                             </a>
                         </div>
@@ -37,7 +39,8 @@ const About = () => {
                     <div className="photo">
                         <img src={Tejan} alt="Avatar" className="image" />
                         <div className="overlay">
-                            <a href="" className="icons">
+                            <p>Shreya Tejan</p>
+                            <a href="https://www.linkedin.com/in/shreya-tejan/" className="icons">
                             <img src={LinkedIn} alt="LinkedIn" />
                             </a>
                         </div>
@@ -46,6 +49,7 @@ const About = () => {
                     <div className="photo">
                         <img src={Urvashi} alt="Avatar" className="image" />
                         <div className="overlay">
+                            <p>Urvashi Yadav</p>
                             <a href="https://www.linkedin.com/in/urvashiyadav2004/" className="icons">
                             <img src={LinkedIn} alt="LinkedIn" />
                             </a>

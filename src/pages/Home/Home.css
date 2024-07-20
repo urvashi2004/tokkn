@@ -1,7 +1,6 @@
 .home-page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     color: #fff1f1;

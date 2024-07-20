@@ -6,6 +6,7 @@ import image from './Account.png'
 const Account = () => {
   return (
     <div className="profile-container">
+      <h1> My Wallet </h1>
       <img src= {image}  alt = "userprofile" className="profile" />
       <div className="profile-info">
         <h2 className="username">John Doe</h2>

@@ -1,5 +1,6 @@
 import './App.css';
 import './assets/fonts/fonts.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="login" element={<Login/>}/>
           <Route path="signup" element={<Signup/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="connect" element={<Connect/>}/>
         </Routes>
       </Router>
     </div>

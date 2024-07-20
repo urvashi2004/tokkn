@@ -6,16 +6,13 @@ import image from './Account.png'
 const Account = () => {
   return (
     <div className="profile-container">
-      <h1> My Wallet </h1>
+      <div className='Left-nav'>
       <img src= {image}  alt = "userprofile" className="profile" />
-      <div className="profile-info">
-        <h2 className="username">John Doe</h2>
+      <h2 className="username">John Doe</h2>
+      <button class="btn"> See Resume </button>          
+      <div className="profile-info"> 
         <p className="earned-tokens">Earned Tokens: 100</p>
       </div>
-      <div className="button-container">
-        <button className="history-button">History</button>
-        <button className="settings-button">Settings</button>
-        <button className="token-button">Earn Tokens</button>
       </div>
       <div className="button-container">
         <Link to="/login" className="logo">

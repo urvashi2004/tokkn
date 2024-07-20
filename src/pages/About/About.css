@@ -39,8 +39,9 @@
 
 .overlay {
     position: absolute; 
-    height: 3.55vw;
+    height: 4.5vw;
     display: flex;
+    flex-direction: column;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1; 
@@ -48,12 +49,21 @@
     transition: .5s ease;
     opacity: 0;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
+.overlay p{
+    font-size: 1.35rem;
+    margin-top: 0.5rem;
+}
+
+
 .overlay img {
-    height: 2.2vw;
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    height: 1.2vw;
 }
 
 .photo:hover .image{

@@ -1,10 +1,20 @@
 .navbar-container {
     display: flex;
-    position: relative;
+    position: fixed;
     height: 60px;
-    background-color: #08065a;
     align-items: center;
     width: 100vw;
+}
+
+.logo img {
+    position: fixed;
+    left: 20px;
+    width: 45px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
 }
 
 .menu-icon {
@@ -43,8 +53,6 @@
 
 .menu.closed {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 60px;
     background-color: #08065a;
@@ -78,17 +86,4 @@
 
 .menu ul li a:hover {
     color: #f1f1f1;
-}
-
-.navbar-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    z-index: 1001;
-}
-
-.sticky-nav {
-    position: sticky;
-    top: 0;
 }

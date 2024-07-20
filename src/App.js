@@ -5,7 +5,7 @@ import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
 import Navbar from './pages/NavFoot/Navbar';
 import Home from './pages/Home/Home';
-import Token from './pages/Token/Token';
+import Account from './pages/Account/Account';
 import About from './pages/About/About';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/token" element={<Token/>}/>
+          <Route path="/account" element={<Account/>}/>
           <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>

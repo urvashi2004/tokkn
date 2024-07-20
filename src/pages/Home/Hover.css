@@ -7,6 +7,9 @@
   }
   
   .achievementleft {
+    height: 40vh;
+    width: 18vw;
+    margin: -40px 60px -60px 40px;
     border-radius: 10px;
     display: flex;
     background-color: #012147;
@@ -21,6 +24,8 @@
   }
   
   .front-card {
+    height: 38vh;
+    width: 18vw;
     display: flex;
     backface-visibility: hidden;
     padding: 1rem;
@@ -31,6 +36,8 @@
   }
   
   .back-card {
+    height: 38vh;
+    width: 18vw;
     display: flex;
     position: absolute;
     justify-content: space-around;

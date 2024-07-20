@@ -1,0 +1,41 @@
+.about-us {
+    margin: 0; 
+    padding-top: 3cqh;
+  }
+
+  .about{
+    display: flex;
+  }
+
+  .left{
+    width: 50%;
+    height: 85vh;
+    background-color:cadetblue;
+  }
+
+  .right{
+    width: 50%;
+    height: 50vh;
+    
+  }
+
+
+
+
+  .about-us a.btn {
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  .about-us a.btn:hover {
+    background-color: #0069d9;
+  }
+  

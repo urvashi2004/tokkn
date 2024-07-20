@@ -1,13 +1,19 @@
 .home-page {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     color: #fff1f1;
     background-color: #010100;
     text-align: center;
-    padding: 5vw;
     height: calc(100vh - 60px);
+    width: max-content;
+}
+
+.home-page img {
+    width: 100vw;
+    aspect-ratio: 1.77;
 }
 
 .cards {
@@ -15,6 +21,7 @@
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     position: relative;
+    padding: 5vw;
 }
 
 .card-main {

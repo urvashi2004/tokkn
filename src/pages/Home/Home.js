@@ -1,10 +1,14 @@
 import React from 'react';
 import HoverCard from './Hover';
 import './Home.css';
+import Intro from './Intro.png';
 
 const Home = () => {
     return (
         <div className="home-page">
+
+            <img src={Intro} alt='Landing Page'/>
+
             <div className="cards">
 
                 <div className="card-main">

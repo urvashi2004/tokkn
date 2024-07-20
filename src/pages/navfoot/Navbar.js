@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Navbar.css';
+import Icon from './Icon.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +13,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar-container'>
+
             <button className="menu-icon" onClick={toggleNavbar}>
                 {isOpen ? '×' : '☰'}
             </button>
@@ -22,11 +26,14 @@ const Navbar = () => {
                         <li><a href="/shop">Shop</a></li>
                         <li><a href="/about">About Us</a></li>
                     </ul>
-                ) : (
-                    <div className="navbar-title">
-                        <h1>Tokkn</h1>
-                    </div>
-                )}
+                ) : 
+                <div>
+                    <Link to="/" className="logo">
+                        <img src={Icon} alt="Site Logo" />
+                    </Link>
+                    <a>Take Your Tokkns!</a>
+                </div>
+                }
             </div>
         </div>
     );

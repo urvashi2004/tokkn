@@ -5,7 +5,8 @@ import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 
 import Navbar from './pages/NavFoot/Navbar';
 import Home from './pages/Home/Home';
-import Token from './pages/Token/Token';
+import Login from './pages/Account/LogIn.page';
+import Signup from './pages/Account/SignUp.page';
 import About from './pages/About/About';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/token" element={<Token/>}/>
+          <Route path="login" element={Login}/>
+          <Route path="signup" element={Signup}/>
           <Route path="/about" element={<About/>}/>
         </Routes>
       </Router>

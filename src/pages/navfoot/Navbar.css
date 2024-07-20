@@ -4,6 +4,7 @@
     height: 60px;
     align-items: center;
     width: 100vw;
+    z-index: 1;
 }
 
 .logo img {

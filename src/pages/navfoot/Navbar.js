@@ -22,10 +22,10 @@ const Navbar = () => {
                     <ul>
                         <li><a href="account">Your Account</a></li>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/tokens">Tokens</a></li>
                         <li><a href="/earn">Earn</a></li>
                         <li><a href="/shop">Shop</a></li>
                         <li><a href="/about">About Us</a></li>
+                        <li><a href="/about">Connect with us</a></li>
                     </ul>
                 ) : 
                 <div>

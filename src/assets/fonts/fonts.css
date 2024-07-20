@@ -1,0 +1,18 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'Dream Avenue';
+    src: url('./DreamAvenue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lastica';
+    src: url('./Lastica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Dream Avenue', sans-serif; /* Default font */
+}

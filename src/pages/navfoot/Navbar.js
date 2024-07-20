@@ -9,20 +9,24 @@ const Navbar = () => {
     };
 
     return (
-        <div>
-            <button className="menu-btn" onClick={toggleNavbar}>
-                ☰
+        <div className='navbar-container'>
+            <button className="menu-icon" onClick={toggleNavbar}>
+                {isOpen ? '×' : '☰'}
             </button>
-            <div className={`navbar ${isOpen ? 'open' : ''}`}>
-                <button className="close-btn" onClick={toggleNavbar}>
-                    &times;
-                </button>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div className={`menu ${isOpen ? 'open' : 'closed'}`}>
+                {isOpen ? (
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/tokens">Tokens</a></li>
+                        <li><a href="/earn">Earn</a></li>
+                        <li><a href="/shop">Shop</a></li>
+                        <li><a href="/about">About Us</a></li>
+                    </ul>
+                ) : (
+                    <div className="navbar-title">
+                        <h1>Tokkn</h1>
+                    </div>
+                )}
             </div>
         </div>
     );

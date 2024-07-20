@@ -1,0 +1,46 @@
+.home-page {
+    background-color: #1a0b8b;
+}
+
+.home-page h3 {
+    font-family: "Nasalization", sans-serif;
+    color: blue;
+    font-size: 2rem;
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.card-main {
+    width: 23vh;
+    padding: 2vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    .resourcesbox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-main {
+        width: 48vh;
+        padding: 2vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-main {
+        width: 90vh;
+        padding: 5vh;
+    }
+}
+

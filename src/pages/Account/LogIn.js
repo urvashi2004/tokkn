@@ -53,7 +53,7 @@ const LogIn = () => {
   }, []);
 
   return (
-    <div>
+    <div className="logincont">
         <h2>Sign In</h2>
         <section className='login'>
             <div className="container-sign-in">

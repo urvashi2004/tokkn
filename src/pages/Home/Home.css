@@ -1,13 +1,13 @@
 .home-page {
+    width: 100vw;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins';
     font-size: xx-large;
     color: #fff1f1;
-    background-color: #010100;
     text-align: center;
     height: calc(100vh - 60px);
-    width: max-content;
 }
 
 .home-page img {

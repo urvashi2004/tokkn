@@ -10,6 +10,7 @@ import Account from './pages/Account/Account';
 import Login from './pages/Account/LogIn.page';
 import Signup from './pages/Account/SignUp.page';
 import About from './pages/About/About';
+import Connect from './pages/Connect/Connect';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="login" element={<Login/>}/>
           <Route path="signup" element={<Signup/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="connect" element={<Connect/>}/>
+          <Route path="/connect" element={<Connect/>}/>
         </Routes>
       </Router>
     </div>

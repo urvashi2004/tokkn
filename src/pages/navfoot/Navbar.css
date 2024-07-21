@@ -50,6 +50,7 @@
 
 .menu.open {
     transform: scaleY(1);
+    background: linear-gradient(45deg, #3e1d59, #1e2b51);
 }
 
 .menu.closed {
@@ -83,6 +84,7 @@
     text-decoration: none;
     color: #fff;
     transition: color 0.3s;
+    font-family: 'DreamAvenue';
 }
 
 .menu ul li a:hover {

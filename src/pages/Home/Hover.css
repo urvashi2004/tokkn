@@ -12,8 +12,6 @@
     margin: -40px 60px -60px 40px;
     border-radius: 10px;
     display: flex;
-    background-color: #012147;
-    color: white;
     justify-content: center;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
@@ -24,7 +22,7 @@
   }
   
   .front-card {
-    height: 38vh;
+    height: 30vh;
     width: 18vw;
     display: flex;
     backface-visibility: hidden;
@@ -32,17 +30,17 @@
     justify-content: space-around;
     border-radius: 10px;
     font-size: 1.4rem;
-    background-color: #08065a;
+    background-color: #9d8cff;
   }
   
   .back-card {
-    height: 38vh;
+    height: 30vh;
     width: 18vw;
     display: flex;
     position: absolute;
     justify-content: space-around;
     backface-visibility: hidden;
-    background-color: #2830b5;
+    background-color: #7647a4;
     transform: rotateY(180deg);
     padding: 1rem;
     border-radius: 10px;
@@ -51,7 +49,6 @@
   
   .achievementleft span {
     color: rgb(255, 255, 255);
-    font-family: "Poppins", sans-serif;
     align-self: center;
     overflow-wrap: break-word;
     white-space: normal;

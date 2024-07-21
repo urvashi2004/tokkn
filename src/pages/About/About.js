@@ -12,7 +12,7 @@ import LinkedIn from './LinkedIn.png';
 const About = () => {
     return (
         <section className="cores">
-                <p>Our Team</p>
+                <p>Meet Our Team</p>
 
                 <div className="cores-photo">
                     

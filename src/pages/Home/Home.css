@@ -5,10 +5,10 @@
     flex-direction: column;
     font-size: xx-large;
     color: #fff1f1;
-    background-color: #010100;
+    background: linear-gradient(45deg, #3e1d59, #1e2b51);
     text-align: center;
-    height: calc(100vh - 60px);
-    width: max-content;
+    height: max-content;
+    width: 100vw;
 }
 
 .home-page img {
@@ -16,9 +16,9 @@
     aspect-ratio: 1.77;
 }
 
-.home-page .cards-title h1 {
-    font-size: '5rem';
-    padding-top: '50px';
+.title h1 {
+    font-size: 5rem;
+    padding-top: 50px;
     font-family: 'DreamAvenue';
 }
 
@@ -43,7 +43,7 @@
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 500px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -52,11 +52,11 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .cards {
         grid-template-columns: repeat(1, 1fr);
     }
     .card-main {
-        width: 100vw; 
+        width: 80vw; 
     }
 }

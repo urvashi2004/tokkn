@@ -41,7 +41,7 @@ const LogIn = () => {
         if (error.code === 'auth/popup-closed-by-user') {
           console.log('Sign-in canceled by user.');
         } else {
-          console.error('Error signing in with Google :(', error);
+          console.error('Error logging in with Google :(', error);
         }
       });
     } catch (error) {
@@ -55,12 +55,12 @@ const LogIn = () => {
   return (
     <div>
         <h2>Sign In</h2>
-        <section className='signin'>
+        <section className='login'>
             <div className="container-sign-in">
                 <input type="text" placeholder='Email' ref={emailRef}/>
                 <input type="password" placeholder='Password' ref={passwordRef}/>
                 <button type="submit" onClick={handleSave}>SIGN IN</button>
-                <a href="\SignIn"><br/>OR<br/></a>
+                <a href="\login"><br/>OR<br/></a>
                 <button onClick={handleGoogleSignIn}>SIGN IN WITH GOOGLE</button>
                 <button>LOG OUT</button>
             </div>

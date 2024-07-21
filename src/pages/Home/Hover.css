@@ -53,3 +53,12 @@
     overflow-wrap: break-word;
     white-space: normal;
   }
+
+  @media only screen and (max-width: 1200px) {
+    .front-card {
+      width: 40vw;
+    }
+    .back-card {
+      width: 40vw;
+    }
+}

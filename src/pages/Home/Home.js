@@ -7,32 +7,32 @@ const Home = () => {
     return (
         <div className="home-page">
 
-            <img src={Intro} alt='Landing Page'/>
+            <img src={Intro} alt='Landing Page' />
 
-            <div classname="cards-title">
+            <div className="cards-title">
                 <h1>Benefits of using our Tokkns</h1>
             </div>
 
             <div className="cards">
 
                 <div className="card-main">
-                    <HoverCard name="Trust and peace of mind" 
-                    details="Hello"/>
+                    <HoverCard name="Reduced Overspending" 
+                    details="Curb impulsive spending by imposing limits or requiring additional steps :P"/>
                 </div>
 
                 <div className="card-main">
-                    <HoverCard name="Let us adapt your budget"
-                    details="Hello2"/>
+                    <HoverCard name="Let Us Adapt Your Budget"
+                    details="Adapt your budget so that your pockets don't get empty so soon!"/>
                 </div>
 
                 <div className="card-main">
-                    <HoverCard name="A new kind of employee"
-                    details="Hello3"/>
+                    <HoverCard name="Setting Financial Goals"
+                    details="Let us help you allocate these tokens to your goals and then enjoy them in peace"/>
                 </div>
 
                 <div className="card-main">
-                    <HoverCard name="Rewards users in real time"
-                    details="Hello4"/>
+                    <HoverCard name="Rewards Users In Real Time"
+                    details="Get rewarded on spending your money, or maybe helping in living :)"/>
                 </div>
 
             </div>

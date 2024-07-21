@@ -6,10 +6,8 @@
 
 .containerc {
   position: relative;
-  width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;

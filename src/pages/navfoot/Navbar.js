@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className={`menu ${isOpen ? 'open' : 'closed'}`}>
                 {isOpen ? (
                     <ul>
-                        <li><a href="/account">My Wallet</a></li>
+                        <li><a href="/login">My Wallet</a></li>
                         <li><a href="/">Home</a></li>
                         <li><a href="/shop">How to Earn</a></li>
                         <li><a href="/about">About Us</a></li>

@@ -4,10 +4,10 @@
     font-family: 'Poppins';
     font-size: xx-large;
     color: #fff1f1;
-    background-color: #010100;
+    background: linear-gradient(45deg, #3e1d59, #1e2b51);
     text-align: center;
-    height: calc(100vh - 60px);
-    width: max-content;
+    height: max-content;
+    width: 100vw;
 }
 
 .home-page img {

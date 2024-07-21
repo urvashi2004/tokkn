@@ -9,7 +9,7 @@ const Home = () => {
 
             <img src={Intro} alt='Landing Page' />
 
-            <div className="cards-title">
+            <div className="title">
                 <h1>Benefits of using our Tokkns</h1>
             </div>
 

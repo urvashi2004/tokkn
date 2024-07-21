@@ -54,11 +54,20 @@
     white-space: normal;
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1200px) and (min-width: 500px) {
     .front-card {
       width: 40vw;
     }
     .back-card {
       width: 40vw;
     }
+}
+
+@media only screen and (max-width: 500px) {
+  .front-card {
+    width: 80vw;
+  }
+  .back-card {
+    width: 80vw;
+  }
 }

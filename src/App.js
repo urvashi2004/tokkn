@@ -12,6 +12,7 @@ import Login from './pages/Account/LogIn';
 import Signup from './pages/Account/SignUp';
 import About from './pages/About/About';
 import Connect from './pages/Connect/Connect';
+import Earn from './pages/Earn/Earn'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/connect" element={<Connect/>}/>
+          <Route path="/earn" element={<Earn/>}/>
         </Routes>
       </Router>
     </div>

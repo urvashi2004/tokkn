@@ -54,7 +54,7 @@ function Connect() {
                 <textarea name="message" className="input" id="message" placeholder="Message"></textarea>
                 <span>Message</span>
               </div>
-              <input type="submit" name="submit" value="Send" className="btn" />
+              <input type="submit" name="submit" value="Send" className="btn-connect" />
             </form>
           </div>
         </div>

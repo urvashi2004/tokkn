@@ -29,7 +29,7 @@
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #2879c9);
+  background: linear-gradient(45deg, #3e1d59, #1e2b51);
   position: absolute;
 }
 

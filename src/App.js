@@ -1,6 +1,7 @@
 import './App.css';
 import './assets/fonts/fonts.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/hover/cursor'
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 

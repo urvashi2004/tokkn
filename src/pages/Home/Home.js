@@ -8,9 +8,11 @@ const Home = () => {
         <div className="home-page">
 
             <img src={Intro} alt='Landing Page'/>
-            <div classname = "Heading">
-                <h1 style={{ color: 'black', fontSize: '5rem', paddingTop: '50px'}}>Benefits of using our tokkns</h1>
+
+            <div classname="cards-title">
+                <h1>Benefits of using our Tokkns</h1>
             </div>
+
             <div className="cards">
 
                 <div className="card-main">

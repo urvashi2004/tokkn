@@ -1,0 +1,35 @@
+html {
+    touch-action: none;
+  }
+  
+  body {
+    margin: 0;
+    background-color: indigo;
+  }
+  
+  svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    
+    line {
+      stroke-width: 20;
+      stroke-linecap: round; 
+      
+      #line-1 & {
+        stroke: cyan; 
+      }
+      
+      #line-2 & {
+        stroke: yellow; 
+      }
+      
+      #line-3 & {
+        stroke: orange; 
+      }
+    }
+  }
+  

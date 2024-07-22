@@ -4,7 +4,7 @@
 * Where all your actions are insured rewards in a few quick and easy steps.
 
 <div style="text-align: center;">
-  ![Logo](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg width="300px")
+  ![Logo](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
 </div>
 <!-- <img  align = "" alt="coding" width="400" src="https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg" alt="Logo" /> </p> -->
 

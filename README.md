@@ -72,11 +72,11 @@ Together, let's make your shopping experience even more rewarding!
 
 ## Screenshots
 
-![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
-![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
-![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
-![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
-![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Tokkn.jpg)
+![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Screenshot%202024-07-21%20094010.png).
+![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Screenshot%202024-07-21%20094157.png)
+![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Screenshot%202024-07-21%20094237.png)
+![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Screenshot%202024-07-21%20094356.png)
+![App Screenshot](https://github.com/urvashi2004/tokkn/blob/InnovateXProject/src/assets/Screenshot%202024-07-21%20094806.png)
 
 
 ## Demo

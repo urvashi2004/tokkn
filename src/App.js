@@ -5,7 +5,7 @@ import './assets/hover/cursor'
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 
-import Navbar from './pages/NavFoot/Navbar';
+import Navbar from './pages/navfoot/Navbar';
 import Home from './pages/Home/Home';
 import Account from './pages/Account/Account';
 import Login from './pages/Account/LogIn';
